@@ -1,0 +1,6 @@
+D:\VS\Projects\project1\DBConnection\bin\Debug\DBConnection.dll.config
+D:\VS\Projects\project1\DBConnection\bin\Debug\DBConnection.dll
+D:\VS\Projects\project1\DBConnection\bin\Debug\DBConnection.pdb
+D:\VS\Projects\project1\DBConnection\obj\Debug\ResolveAssemblyReference.cache
+D:\VS\Projects\project1\DBConnection\obj\Debug\DBConnection.dll
+D:\VS\Projects\project1\DBConnection\obj\Debug\DBConnection.pdb

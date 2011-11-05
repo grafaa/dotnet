@@ -1,0 +1,9 @@
+D:\VS\Projects\project1\AllControls\bin\Debug\AllControls.dll
+D:\VS\Projects\project1\AllControls\bin\Debug\AllControls.pdb
+D:\VS\Projects\project1\AllControls\bin\Debug\DBConnection.dll
+D:\VS\Projects\project1\AllControls\bin\Debug\project1.dll
+D:\VS\Projects\project1\AllControls\bin\Debug\DBConnection.pdb
+D:\VS\Projects\project1\AllControls\bin\Debug\project1.pdb
+D:\VS\Projects\project1\AllControls\obj\Debug\ResolveAssemblyReference.cache
+D:\VS\Projects\project1\AllControls\obj\Debug\AllControls.dll
+D:\VS\Projects\project1\AllControls\obj\Debug\AllControls.pdb

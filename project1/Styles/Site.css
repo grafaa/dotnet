@@ -1,0 +1,212 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1000px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+}
+
+.preheader
+{
+    min-height: 50px;
+}
+
+.header
+{
+    /*margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position:relative;*/
+    min-height:30px;
+    width:100%;
+    background-color: #E6E1DA;
+}
+
+.header h1
+{
+   /* font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;*/
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 550px;
+}
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.float_left
+{
+    float:left;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.search_class
+{
+    text-align:right;
+    padding-top:4px;
+    padding-right:15px;
+}
+
+.img_lbl_div_class
+{
+    padding: 11.5px 0 11.5px 0;
+    width:100%;
+    background-color:White;
+    opacity: .3;
+    position:absolute; top:80%;  
+}
+
+.image_label_class
+{
+    text-transform:uppercase;
+    font-size:30px;
+    color:Black;
+}
+
+
+/**
+Carousel!!!!
+*/
+
+.infiniteCarousel {
+    width: 610px;
+    position: relative;
+    float:left;
+}
+
+.infiniteCarousel .wrapper {
+    width: 600px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+    overflow: auto;
+    min-height: 400px;
+    margin: 0 40px;
+    position: absolute;
+    top: 0;
+}
+
+.infiniteCarousel ul a img {
+    border: 5px solid #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.infiniteCarousel .wrapper ul {
+    width: 9999px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 0;
+}
+
+.infiniteCarousel ul li {
+    display:block;
+    float:left;
+    padding: 10px;
+    height: 400px;
+    width: 600px;
+}
+
+.infiniteCarousel ul li a img {
+    display:block;
+}
+
+.carrousel_min
+{
+    position:absolute;
+    list-style: none outside none;
+    visibility:hidden;
+}
+
+/**/
+.cutomize_content_class
+{
+    width:100%;
+    min-height:500px;
+    border: 1px solid black; 
+}
+
+.images_uploaded
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color:#EBEBEB;
+    width:98%;
+    min-height:100px;
+}
+
+.img_custom_img
+{
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.desc_custom
+{
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.img_title_class
+{
+    color:Black;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.img_desc_class
+{
+    color:Black;
+    font-size:12px;
+}

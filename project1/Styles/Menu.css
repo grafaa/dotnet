@@ -1,0 +1,42 @@
+﻿.SelectedElementMenu
+{
+    background-color:Black;
+    color:White;
+}
+
+.menu_class
+{
+   /* margin:10px;*/
+    margin-left: 20px;
+}
+
+.menu_item_class
+{
+    padding: 5px 10px 5px 10px;
+}
+
+.menu_class ul
+{
+    margin:auto;
+    padding: 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    list-style: none outside none;
+    text-transform: uppercase;
+}
+
+.menu_class ul li
+{
+    float:left;
+    margin-top:6px;
+    padding-right:2px;
+    padding-left:2px;
+    border-right: 1px solid Black;
+}
+
+.menu_class ul li a
+{
+    color : Black;
+    /*margin:10px;*/
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="project1.SiteMaster" %>
+<%@ Register Src="~/UserControls/Menu/Menu.ascx" TagName="Menu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Menu.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1-vsdoc.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1.js"></script>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <asp:ScriptManager ID="ScripManager1" runat="server"></asp:ScriptManager>
+        <div class="preheader">
+            <div class="title">
+            </div>
+            <div class="loginDisplay">
+<%--                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+--%>            
+            </div>
+        </div>
+        <div class="header">
+            <div id="DivMenu" class="menu_class">
+                <uc1:Menu ID="MainMenu" runat="server" />
+            </div>
+            <div id="DivSearch" class="search_class">
+                <asp:TextBox runat="server" ID="SearchBox" Width="100px"></asp:TextBox>
+            </div>
+        </div>
+        
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
